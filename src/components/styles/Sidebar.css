@@ -1,0 +1,56 @@
+  .sidebar {
+    width: 45vh;
+    height: 100%;
+    background-color: #ededed;
+    border-right: 1px solid #d8d8d8;
+    overflow-y: auto;
+    transition: transform 0.3s;
+  }
+
+  .sidebar a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .sidebar-list {
+    list-style: none;
+    padding: 0;
+    padding-bottom: 3rem;
+  }
+  .sidebar-list .center{
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  .sidebar-list .btn-more{
+    background-color: #d8d8d8;
+    border: 1px solid rgb(211, 211, 211);
+    padding: 0.3rem 2rem;
+    border-radius: 15px;
+    cursor: pointer;
+
+  }
+
+  .sidebar-list li {
+    padding: 10px;
+    border-bottom: 1px solid #d8d8d8;
+    cursor: pointer;
+  }
+
+  .sidebar-list li:hover {
+    background-color: #e4e4e4;
+  }
+
+  /* Responsive styles */
+  /* @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      transform: translateX(-100%);
+      position: fixed;
+      z-index: 1000;
+    }
+  
+    .App.sidebar-open .sidebar {
+      transform: translateX(0);
+    }
+  } */

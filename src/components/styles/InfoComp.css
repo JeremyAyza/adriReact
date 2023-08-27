@@ -1,0 +1,29 @@
+
+
+
+
+
+.info-container{
+    width: 100%;
+}
+
+
+.row{
+    padding: 0.7rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey ;
+}   
+.row .clave{
+    font-weight: bold;
+    color:  grey ;
+
+} 
+.row .valor{
+    color:  rgb(60, 60, 60) ;
+    font-weight: 600;
+} 
+
+.info-block{
+    padding: 30px 10%;
+}
